@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*All comments in CSS stylesheet will corolate with number indicator in index.html*/
+
+body {
+    background-color: #d9dcd6;
+}
+/*Styling for Horiseon header and unordered list 01*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*styling for the h1 text Hori  02*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*styling for the h1 text seo 03*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/*styling for the div to add padding in the div 04*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*styling for the undordered list in h1 05*/
+.header nav ul {
+    list-style-type: none;
+}
+/*styling for list items under h1 06*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+    
+}
+/*styling for specific text in list items 07*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+/*styling for the paragraph under the first image 08*/
+p {
+    font-size: 16px;
+}
+/*styling to create the large div image of the people working 09*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*allows the image to stay towards the left of the div box 10*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*allows the image to stay towards the right of the text 11*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*displays all content including images and text to display as inline-block 12*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*creates a class for all under the benefits tag 13*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* changes text color to white and spaces the section away from the following ones 14*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* changes text color to white and spaces the section away from the following ones 15*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* changes text color to white and spaces the section away from the following ones 16*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*aligns "lead generation" text to center of block 17*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*aligns "Brand awareness" text to center of block and spaces it from the bottom 18*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*aligns "Benefit Cost" text to center of block and spaces it from the bottom 19*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* displays lead generation image as block and puts its margin to 150pc 20*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* displays brand awareness image as block and puts its margin to 150pc 21*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* displays benefit costs image as block and puts its margin to 150pc 22*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Gives "search engine optimation custom font and padding 23*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Gives "online reputaation management custom font and padding 24*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Gives "social media marketing" custom font and padding 25*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*max height of image 26*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*max height of image 27*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*max height of image 28*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*changes sixe of text 29*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*changes sixe of text 30*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*changes sixe of text 31*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*adds padding and custom font for footer element 32*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
