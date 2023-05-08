@@ -59,7 +59,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../Images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -90,56 +90,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* changes text color to white and spaces the section away from the following ones 14*/
-.benefit-lead {
+/* changes text color to white and spaces the section away from the following ones 14, 15 &16*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* changes text color to white and spaces the section away from the following ones 15*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* changes text color to white and spaces the section away from the following ones 16*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/*aligns "lead generation" text to center of block 17*/
-.benefit-lead h3 {
+
+/*aligns text to center of block 17 18 19*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aligns "Brand awareness" text to center of block and spaces it from the bottom 18*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*aligns "Benefit Cost" text to center of block and spaces it from the bottom 19*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* displays lead generation image as block and puts its margin to 150pc 20*/
-.benefit-lead img {
+/* displays lead generation image as block and puts its margin to 150pc 20, 21, 22*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* displays brand awareness image as block and puts its margin to 150pc 21*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* displays benefit costs image as block and puts its margin to 150pc 22*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*Gives "search engine optimation custom font and padding 23*/
-.search-engine-optimization {
+
+/*Gives "search engine optimation custom font and padding 23,24,25*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,51 +117,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*Gives "online reputaation management custom font and padding 24*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*Gives "social media marketing" custom font and padding 25*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*max height of image 26*/
-.search-engine-optimization img {
+
+
+/*max height of image 26, 27, 28*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
 }
-/*max height of image 27*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*max height of image 28*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/*changes sixe of text 29*/
-.search-engine-optimization h2 {
+/*changes sixe of text 29, 30, 31*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*changes sixe of text 30*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*changes sixe of text 31*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /*adds padding and custom font for footer element 32*/
 .footer {
     padding: 30px;
